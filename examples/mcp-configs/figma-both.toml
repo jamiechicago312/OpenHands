@@ -1,0 +1,22 @@
+# Figma MCP Combined Configuration (Local + Remote)
+# Copy this file to ~/.openhands/config.toml to use both local and remote Figma MCP servers
+#
+# This configuration provides redundancy - if local server is unavailable,
+# the remote server can be used as fallback.
+#
+# Prerequisites:
+# Local server:
+# 1. Install Figma desktop app: https://www.figma.com/downloads/
+# 2. Enable MCP server: Figma menu → Preferences → Enable local MCP server
+# 3. Ensure Figma desktop app is running
+#
+# Remote server:
+# 1. Figma account with Dev or Full seat
+# 2. Professional, Organization, or Enterprise plan
+# 3. OAuth authentication will be handled automatically
+
+[mcp]
+shttp_servers = [
+    { url = "http://127.0.0.1:3845/mcp" },
+    { url = "https://mcp.figma.com/mcp" }
+]
