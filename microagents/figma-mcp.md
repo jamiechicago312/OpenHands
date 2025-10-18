@@ -47,27 +47,21 @@ The local server runs through the Figma desktop app and provides the most reliab
 
 #### Step 2: Configure OpenHands CLI
 
-Run the OpenHands CLI and use the MCP management command:
+Create the MCP configuration file:
 
-```bash
-openhands
-# In the CLI, type:
-/mcp
+**~/.openhands/mcp.json**
+```json
+{
+  "mcpServers": {
+    "figma-local": {
+      "transport": "http",
+      "url": "http://127.0.0.1:3845/mcp"
+    }
+  }
+}
 ```
 
-Select "Add new server" and choose "SHTTP (Streamable HTTP)", then enter:
-- **URL**: `http://127.0.0.1:3845/mcp`
-- **API Key**: Leave empty (press Enter to skip)
-
-Alternatively, you can manually create the configuration file:
-
-**~/.openhands/config.toml**
-```toml
-[mcp]
-shttp_servers = [
-    { url = "http://127.0.0.1:3845/mcp" }
-]
-```
+Then restart your OpenHands session to load the new configuration.
 
 ### Option 2: Remote MCP Server
 
@@ -75,25 +69,21 @@ The remote server connects directly to Figma's hosted endpoint without requiring
 
 #### Configure Remote Server
 
-Run the OpenHands CLI and add the remote server:
+Create the MCP configuration file:
 
-```bash
-openhands
-# In the CLI, type:
-/mcp
+**~/.openhands/mcp.json**
+```json
+{
+  "mcpServers": {
+    "figma-remote": {
+      "transport": "http",
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}
 ```
 
-Select "Add new server" and choose "SHTTP (Streamable HTTP)", then enter:
-- **URL**: `https://mcp.figma.com/mcp`
-- **API Key**: Leave empty (authentication handled via OAuth)
-
-Or manually add to **~/.openhands/config.toml**:
-```toml
-[mcp]
-shttp_servers = [
-    { url = "https://mcp.figma.com/mcp" }
-]
-```
+Then restart your OpenHands session to load the new configuration.
 
 ## Usage
 
@@ -128,38 +118,53 @@ Once configured, restart OpenHands CLI for changes to take effect. You can then:
 - Complete OAuth authentication when prompted
 
 ### General Issues
-- Use `/mcp` command in CLI to check server status
-- View MCP errors with the "View errors" option in MCP menu
 - Restart OpenHands CLI after configuration changes
+- Check that the `~/.openhands/mcp.json` file is valid JSON
+- Verify server URLs are accessible
 
 ## Configuration Files
 
 ### Complete Local Setup Example
-**~/.openhands/config.toml**
-```toml
-[mcp]
-shttp_servers = [
-    { url = "http://127.0.0.1:3845/mcp" }
-]
+**~/.openhands/mcp.json**
+```json
+{
+  "mcpServers": {
+    "figma-local": {
+      "transport": "http",
+      "url": "http://127.0.0.1:3845/mcp"
+    }
+  }
+}
 ```
 
 ### Complete Remote Setup Example
-**~/.openhands/config.toml**
-```toml
-[mcp]
-shttp_servers = [
-    { url = "https://mcp.figma.com/mcp" }
-]
+**~/.openhands/mcp.json**
+```json
+{
+  "mcpServers": {
+    "figma-remote": {
+      "transport": "http",
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}
 ```
 
 ### Both Local and Remote (Advanced)
-**~/.openhands/config.toml**
-```toml
-[mcp]
-shttp_servers = [
-    { url = "http://127.0.0.1:3845/mcp" },
-    { url = "https://mcp.figma.com/mcp" }
-]
+**~/.openhands/mcp.json**
+```json
+{
+  "mcpServers": {
+    "figma-local": {
+      "transport": "http",
+      "url": "http://127.0.0.1:3845/mcp"
+    },
+    "figma-remote": {
+      "transport": "http",
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}
 ```
 
 ## Beta Notice
@@ -177,6 +182,6 @@ For the latest updates and documentation, visit:
 
 If you encounter issues:
 1. Check the troubleshooting section above
-2. Use `/mcp` → "View errors" in OpenHands CLI
+2. Verify your `~/.openhands/mcp.json` file is valid JSON
 3. Consult the [Figma MCP documentation](https://developers.figma.com/docs/figma-mcp-server)
 4. Report issues to the OpenHands community
