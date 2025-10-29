@@ -1,0 +1,265 @@
+Category,Issue_Number,Title,Summary,Technical_Details,Categorization_Reason,Labels,State,Created_Date,Updated_Date,Author,Assignees,Comments_Count,URL,Is_Pull_Request,Body_Length,Priority_Indicators
+Cli Terminal,11566,CLI: bump agent-sdk version,CLI: bump agent-sdk version,,Command line interface or terminal related,,open,2025-10-29,2025-10-29,malhotra5,,1,https://github.com/OpenHands/OpenHands/pull/11566,Yes,1415,Normal
+Cli Terminal,11565,chore(frontend): Add V1 git service API with unified hooks for git changes and diffs,chore(frontend): Add V1 git service API with unified hooks for git changes and diffs,,Command line interface or terminal related,,open,2025-10-29,2025-10-29,amanape,amanape,1,https://github.com/OpenHands/OpenHands/pull/11565,Yes,1429,Normal
+Cli Terminal,11564,V1 IDs without hyphens,V1 IDs without hyphens. * Pydantic parses either hyphenated or non hyphenated versions without issue...,apply universally,Command line interface or terminal related,,open,2025-10-29,2025-10-29,tofarr,,1,https://github.com/OpenHands/OpenHands/pull/11564,Yes,1566,Normal
+Cli Terminal,11561,fix(frontend): inconsistent V1 conversation IDs when accessing via conversationpanel,"fix(frontend): inconsistent V1 conversation IDs when accessing via conversationpanel. -->
+
+**Description:**
+An inconsistency has been observed in the conversation ID format for V1 con...",,Command line interface or terminal related,,open,2025-10-29,2025-10-29,hieptl,hieptl,3,https://github.com/OpenHands/OpenHands/pull/11561,Yes,2489,Normal
+Cli Terminal,11558,fix(frontend): delays in updating conversation titles before they are reflected in the user interface.,"fix(frontend): delays in updating conversation titles before they are reflected in the user interface.. -->
+
+This pull request resolves the issue causing delays in updating conversation titles before th...",,Command line interface or terminal related,,open,2025-10-29,2025-10-29,hieptl,hieptl,2,https://github.com/OpenHands/OpenHands/pull/11558,Yes,1830,Normal
+Cli Terminal,11557,Fix import order for Windows PowerShell support,"Fix import order for Windows PowerShell support. -->
+Reordered imports in cli_runtime.py to ensure `DotNetMissingError` is imported before `WindowsP...",,Command line interface or terminal related,,open,2025-10-29,2025-10-29,SmartManoj,,0,https://github.com/OpenHands/OpenHands/pull/11557,Yes,1136,Normal
+Cli Terminal,11556,feat: add V1 CLI alias setup with uv tool install support,"feat: add V1 CLI alias setup with uv tool install support. ## Summary
+
+This PR implements comprehensive alias setup functionality for OpenHands V1 CLI, addre...",,Command line interface or terminal related,,open,2025-10-29,2025-10-29,aaron-seq,,0,https://github.com/OpenHands/OpenHands/pull/11556,Yes,2619,Normal
+Cli Terminal,11551,chore - Enforce python test coverage,"chore - Enforce python test coverage. ## Summary of PR
+
+We've recently discussed adding enforcement of test coverage, specifically to pr...",,Command line interface or terminal related,,open,2025-10-28,2025-10-29,raymyers,raymyers,4,https://github.com/OpenHands/OpenHands/pull/11551,Yes,2212,Normal
+Cli Terminal,11507,enhance: improve alias setup with uv tool install recommendation,"enhance: improve alias setup with uv tool install recommendation. ## Problem Statement
+
+Addresses issue #10754 which requested that the alias prompt suggest `uv too...",provides a foundation for potentially defaulting to `uv tool install` in future releases while givin,Command line interface or terminal related,,open,2025-10-25,2025-10-29,aaron-seq,,4,https://github.com/OpenHands/OpenHands/pull/11507,Yes,3927,Normal
+Cli Terminal,11500,feat: add /init microagent for repository initialization,feat: add /init microagent for repository initialization,,Command line interface or terminal related,,open,2025-10-24,2025-10-27,ak684,,1,https://github.com/OpenHands/OpenHands/pull/11500,Yes,1784,Normal
+Cli Terminal,11486,feat(backend): implement support for deleting conversations in both V0 and V1 versions.,feat(backend): implement support for deleting conversations in both V0 and V1 versions.,support for deleting conversations in both v0 and v1 versions,Command line interface or terminal related,,open,2025-10-23,2025-10-25,hieptl,hieptl,1,https://github.com/OpenHands/OpenHands/pull/11486,Yes,1670,Normal
+Cli Terminal,11485,fix: remove import from completed migration,fix: remove import from completed migration. This prevents migration failures when the constant is eventually removed from the codebase...,,Command line interface or terminal related,,open,2025-10-23,2025-10-23,malhotra5,,2,https://github.com/OpenHands/OpenHands/pull/11485,Yes,1909,Normal
+Cli Terminal,11481,"Add `security_policy` field to replace `confirmation_mode` with three options: `never`, `always`, `risky`","Add `security_policy` field to replace `confirmation_mode` with three options: `never`, `always`, `risky`",,Command line interface or terminal related,,open,2025-10-22,2025-10-22,amanape,amanape,1,https://github.com/OpenHands/OpenHands/pull/11481,Yes,1446,Normal
+Cli Terminal,11460,Add one-line installation script for CLI,"Add one-line installation script for CLI. ## Problem
+
+Currently, users need to manually download and install the CLI, which can be cumbersome...",a one-line installation command that automatically downloads and installs the latest version of the ,Command line interface or terminal related,CLI,open,2025-10-21,2025-10-28,xingyaoww,malhotra5,5,https://github.com/OpenHands/OpenHands/issues/11460,No,1331,Normal
+Cli Terminal,11450,Feature/keycloak cookie compression,Feature/keycloak cookie compression,,Command line interface or terminal related,,open,2025-10-21,2025-10-21,chuckbutkus,,0,https://github.com/OpenHands/OpenHands/pull/11450,Yes,1451,Normal
+Cli Terminal,11414,Add config option to check if roles are present,Add config option to check if roles are present,,Command line interface or terminal related,,open,2025-10-16,2025-10-20,chuckbutkus,,2,https://github.com/OpenHands/OpenHands/pull/11414,Yes,621,Normal
+Cli Terminal,11375,refactor(runtime): signal for alerting on 'failed to start runtime' error,refactor(runtime): signal for alerting on 'failed to start runtime' error,,Command line interface or terminal related,,open,2025-10-14,2025-10-14,jpshackelford,,1,https://github.com/OpenHands/OpenHands/pull/11375,Yes,675,Normal
+Cli Terminal,11372,feat(backend): [stripe] update pro subscription link,"feat(backend): [stripe] update pro subscription link. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,deploy,open,2025-10-14,2025-10-22,hieptl,hieptl,7,https://github.com/OpenHands/OpenHands/pull/11372,Yes,2262,Normal
+Cli Terminal,11353,Fix CLI resume command hint for different execution methods,"Fix CLI resume command hint for different execution methods. ## Problem
+
+The OpenHands CLI displays a hardcoded resume hint when conversations end:
+
+```
+Hint: ru...",replace `run` with `,Command line interface or terminal related,,open,2025-10-13,2025-10-13,jamiechicago312,,0,https://github.com/OpenHands/OpenHands/pull/11353,Yes,3389,Normal
+Cli Terminal,11321,CLI(V1): Add multi-arch support for executable binary,"CLI(V1): Add multi-arch support for executable binary. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Command line interface or terminal related,,open,2025-10-10,2025-10-10,malhotra5,,1,https://github.com/OpenHands/OpenHands/pull/11321,Yes,2669,Normal
+Cli Terminal,11278,feat: add file referencing with @ autocomplete,feat: add file referencing with @ autocomplete. Implements file referencing feature where users can type '@' to autocomplete and reference files fro...,recursive file listing using os,Command line interface or terminal related,,open,2025-10-08,2025-10-13,ak684,,14,https://github.com/OpenHands/OpenHands/pull/11278,Yes,2013,Normal
+Cli Terminal,11265,SAAS: Introducing orgs (phase 1),SAAS: Introducing orgs (phase 1),be no change existing product behavior while the new structure is introduced),Command line interface or terminal related,deploy,open,2025-10-07,2025-10-29,chuckbutkus,,21,https://github.com/OpenHands/OpenHands/pull/11265,Yes,1392,Normal
+Cli Terminal,11263,support GPT-5-Codex in CLI,"support GPT-5-Codex in CLI. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,,open,2025-10-06,2025-10-06,xingyaoww,,1,https://github.com/OpenHands/OpenHands/pull/11263,Yes,1120,Normal
+Cli Terminal,11260,Fix CLI model selection to display all available models,"Fix CLI model selection to display all available models. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Command line interface or terminal related,,open,2025-10-06,2025-10-07,xingyaoww,,2,https://github.com/OpenHands/OpenHands/pull/11260,Yes,2583,Normal
+Cli Terminal,11232,V1: Add --task and --file parameters to V1 CLI app,V1: Add --task and --file parameters to V1 CLI app,,Command line interface or terminal related,enhancement; CLI,open,2025-10-04,2025-10-06,enyst,,0,https://github.com/OpenHands/OpenHands/issues/11232,No,690,Normal
+Cli Terminal,11212,Bump CLI commit,"Bump CLI commit. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Command line interface or terminal related,,open,2025-10-01,2025-10-02,xingyaoww,,4,https://github.com/OpenHands/OpenHands/pull/11212,Yes,1010,Normal
+Cli Terminal,11196,fix(cli): improve Windows auto-install by resolving fallbacks (code.cmd/surf.cmd),"fix(cli): improve Windows auto-install by resolving fallbacks (code.cmd/surf.cmd). If checked, you must provide an end-user friendly description for your change below
+
+End-user friend...",,Command line interface or terminal related,,open,2025-09-30,2025-10-14,enyst,,1,https://github.com/OpenHands/OpenHands/pull/11196,Yes,2092,Normal
+Cli Terminal,11149,CLI(V1): Add ASCII art splash screen to PyInstaller executable,"CLI(V1): Add ASCII art splash screen to PyInstaller executable. ## Summary
+
+This PR adds a splash screen to the OpenHands CLI PyInstaller executable to provide visu...",,Command line interface or terminal related,,open,2025-09-26,2025-09-26,malhotra5,,0,https://github.com/OpenHands/OpenHands/pull/11149,Yes,4016,Normal
+Cli Terminal,11146,Update dependency for swe gym modal eval,"Update dependency for swe gym modal eval. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,,open,2025-09-26,2025-10-16,neubig,,5,https://github.com/OpenHands/OpenHands/pull/11146,Yes,1017,Normal
+Cli Terminal,11135,logging b (wip),"logging b (wip). If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,deploy,open,2025-09-25,2025-09-25,ak684,,2,https://github.com/OpenHands/OpenHands/pull/11135,Yes,982,Normal
+Cli Terminal,11132,logging a (wip),"logging a (wip). If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,deploy,open,2025-09-25,2025-09-26,ak684,,21,https://github.com/OpenHands/OpenHands/pull/11132,Yes,979,Normal
+Cli Terminal,11125,Fix CLI /new command not properly resetting conversation display,"Fix CLI /new command not properly resetting conversation display. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Command line interface or terminal related,,open,2025-09-25,2025-09-25,xingyaoww,,1,https://github.com/OpenHands/OpenHands/pull/11125,Yes,2661,Normal
+Cli Terminal,11085,RDS IAM Auth and DB schema support,"RDS IAM Auth and DB schema support. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,,open,2025-09-23,2025-09-23,chuckbutkus,,1,https://github.com/OpenHands/OpenHands/pull/11085,Yes,963,Normal
+Cli Terminal,11068,dev branch: github token fix,dev branch: github token fix. development branch for fixing github token issue: When resuming conversations after extended periods...,,Command line interface or terminal related,deploy,open,2025-09-22,2025-09-25,ak684,,49,https://github.com/OpenHands/OpenHands/pull/11068,Yes,1196,Normal
+Cli Terminal,11058,feat(cli): allow command history navigation using keys,"feat(cli): allow command history navigation using keys. **What problem or use case are you trying to solve?**
+
+having to rewrite a long instruction or somet...","or enhancement useful, make sure to add a 👍 to the issue",Command line interface or terminal related,enhancement; OH UI/UX,open,2025-09-22,2025-09-22,jakob1379,,0,https://github.com/OpenHands/OpenHands/issues/11058,No,416,Normal
+Cli Terminal,11028,Chuck test,"Chuck test. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,,open,2025-09-19,2025-09-19,chuckbutkus,,0,https://github.com/OpenHands/OpenHands/pull/11028,Yes,961,Normal
+Cli Terminal,10990,"Fix stale Stripe customer ID handling to prevent ""No such customer"" errors","Fix stale Stripe customer ID handling to prevent ""No such customer"" errors. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Command line interface or terminal related,Stale,open,2025-09-16,2025-10-27,rbren,,2,https://github.com/OpenHands/OpenHands/pull/10990,Yes,2866,Normal
+Cli Terminal,10967,"Parameter 'command' is expected to be one of ['view','create','str_replace','insert','undo_edit'] and Missing required parameters for function 'execute_bash'","Parameter 'command' is expected to be one of ['view','create','str_replace','insert','undo_edit'] and Missing required parameters for function 'execute_bash'. I tried to generate a hello.sh file in the /home/data/wb/empty/ directory, that is, `Write a bash sc...",i do in this case?,Command line interface or terminal related,,open,2025-09-15,2025-09-24,shawnwbts,,1,https://github.com/OpenHands/OpenHands/issues/10967,No,604,Normal
+Cli Terminal,10961,add git branch name to eventstream logs,"add git branch name to eventstream logs. Summary
+
+Background slack convo: https://openhands-ai.slack.com/archives/C08EVN24JRJ/p175750456015...",,Command line interface or terminal related,,open,2025-09-12,2025-10-11,ak684,,1,https://github.com/OpenHands/OpenHands/pull/10961,Yes,1770,Normal
+Cli Terminal,10960,feat: Add Bitbucket identity provider support to Keycloak configuration,feat: Add Bitbucket identity provider support to Keycloak configuration,,Command line interface or terminal related,,open,2025-09-12,2025-10-11,ak684,,0,https://github.com/OpenHands/OpenHands/pull/10960,Yes,1401,Normal
+Cli Terminal,10928,Add logging,"Add logging. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,Stale,open,2025-09-11,2025-10-23,chuckbutkus,,2,https://github.com/OpenHands/OpenHands/pull/10928,Yes,962,Normal
+Cli Terminal,10904,[CLI] Usability Improvements,[CLI] Usability Improvements,,Command line interface or terminal related,enhancement; roadmap,open,2025-09-09,2025-09-09,jpelletier1,,0,https://github.com/OpenHands/OpenHands/issues/10904,No,106,Normal
+Cli Terminal,10856,Test user,"Test user. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Command line interface or terminal related,Stale,open,2025-09-05,2025-10-28,chuckbutkus,,1,https://github.com/OpenHands/OpenHands/pull/10856,Yes,960,Normal
+Api Integration,11534,"docs: Update V1 API redesign proposal assessment (UserContext, ConversationPaths, TokenSource)","docs: Update V1 API redesign proposal assessment (UserContext, ConversationPaths, TokenSource)","assessment (usercontext, conversationpaths, tokensource) ## summary of pr",API or external integration related,,open,2025-10-28,2025-10-28,enyst,,1,https://github.com/OpenHands/OpenHands/pull/11534,Yes,2221,Normal
+Api Integration,11528,Proposal: REST APIs redesign,Proposal: REST APIs redesign. This issue focuses only on the APIs redesign...,"their own `tokensource`, `usercontext`, and `conversationpaths` to integrate mu or custom auth witho",API or external integration related,,open,2025-10-27,2025-10-28,enyst,,7,https://github.com/OpenHands/OpenHands/issues/11528,No,6586,Normal
+Api Integration,11385,[Feature] Adding an MCP call handler significantly reduces the overhead of RPC requests.,Adding an MCP call handler significantly reduces the overhead of RPC requests.. [ISSUE](https://github.com/All-Hands-AI/OpenHands/issues/11384)...,,API or external integration related,,open,2025-10-15,2025-10-27,CLFutureX,,0,https://github.com/OpenHands/OpenHands/pull/11385,Yes,64,Normal
+Api Integration,11384,[Feature] Adding an MCP call handler significantly reduces the overhead of RPC requests.,"Adding an MCP call handler significantly reduces the overhead of RPC requests.. ### Background
+When the system currently executes an MCP tool call, it first establishes connections...",instance caching for mcpclient,API or external integration related,enhancement,open,2025-10-15,2025-10-15,CLFutureX,,0,https://github.com/OpenHands/OpenHands/issues/11384,No,899,Normal
+Api Integration,11320,CLI(V1): Multi-arch support,"CLI(V1): Multi-arch support. **What problem or use case are you trying to solve?**
+
+We have multi-platform support at the moment ...","or enhancement useful, make sure to add a 👍 to the issue",API or external integration related,enhancement; CLI,open,2025-10-10,2025-10-10,malhotra5,,3,https://github.com/OpenHands/OpenHands/issues/11320,No,353,Normal
+Api Integration,11313,refactor(backend): update get_microagent_management_conversations API to support V1,"refactor(backend): update get_microagent_management_conversations API to support V1. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",the version 1 (v1) logic,API or external integration related,,open,2025-10-10,2025-10-22,hieptl,hieptl,2,https://github.com/OpenHands/OpenHands/pull/11313,Yes,1677,Normal
+Api Integration,11243,feat: add Azure DevOps integration support,"feat: add Azure DevOps integration support. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,API or external integration related,,open,2025-10-05,2025-10-25,zerofltexx,,3,https://github.com/OpenHands/OpenHands/pull/11243,Yes,1968,Normal
+Api Integration,11226,feat(openhands-cli): Add Agent Client Protocol (ACP) support for editor integration,feat(openhands-cli): Add Agent Client Protocol (ACP) support for editor integration,,API or external integration related,,open,2025-10-03,2025-10-05,xingyaoww,,8,https://github.com/OpenHands/OpenHands/pull/11226,Yes,5177,Normal
+Api Integration,11111,Forgejo integration,"Forgejo integration. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,API or external integration related,,open,2025-09-25,2025-10-23,johba37,,4,https://github.com/OpenHands/OpenHands/pull/11111,Yes,1490,Normal
+Api Integration,11110,[feat] add BurnCloud as llm provider,"[feat] add BurnCloud as llm provider. **What problem or use case are you trying to solve?**
+I find it difficult when using Claude API due ...",make many requests,API or external integration related,enhancement,open,2025-09-25,2025-09-25,zuiyue-com,,0,https://github.com/OpenHands/OpenHands/issues/11110,No,793,Normal
+Api Integration,11088,[Conversation UX] Select model on conversation starts,"[Conversation UX] Select model on conversation starts. **What problem or use case are you trying to solve?**
+
+I would like the ability to select the model ...","or enhancement useful, make sure to add a 👍 to the issue",API or external integration related,enhancement; Needs Design; backlog,open,2025-09-23,2025-09-23,xingyaoww,,0,https://github.com/OpenHands/OpenHands/issues/11088,No,758,Normal
+Api Integration,11059,Add comprehensive API for conversation metrics data,"Add comprehensive API for conversation metrics data. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,API or external integration related,,open,2025-09-22,2025-09-23,rbren,,4,https://github.com/OpenHands/OpenHands/pull/11059,Yes,4344,Normal
+Api Integration,11052,feat(bitbucket): supports cloud and server APIs,feat(bitbucket): supports cloud and server APIs,,API or external integration related,,open,2025-09-20,2025-10-27,phymbert,,4,https://github.com/OpenHands/OpenHands/pull/11052,Yes,1088,Normal
+Api Integration,10922,"[Enhancement]: Aggregate features, contributor docs, into the mintlify docs","Aggregate features, contributor docs, into the mintlify docs. **What problem or use case are you trying to solve?**
+Right now, all OpenHands  contributor docs are...","or enhancement useful, make sure to add a 👍 to the issue",API or external integration related,enhancement; openhands,open,2025-09-10,2025-10-23,jamiechicago312,jamiechicago312,2,https://github.com/OpenHands/OpenHands/issues/10922,No,1219,Normal
+Api Integration,10916,feat: initial BB Forge app Webhook Integration ,"feat: initial BB Forge app Webhook Integration . Summary
+
+  This PR adds support for Bitbucket Cloud webhooks to enable OpenHands to respond to pul...",,API or external integration related,,open,2025-09-10,2025-10-11,ak684,,1,https://github.com/OpenHands/OpenHands/pull/10916,Yes,1246,Normal
+Api Integration,10911,[Enhancement] Allow for easier multi-line prompting within CLI,"Allow for easier multi-line prompting within CLI. **What problem or use case are you trying to solve?**
+Developers using the CLI sometimes would like ...","or enhancement useful, make sure to add a 👍 to the issue",API or external integration related,enhancement,open,2025-09-10,2025-09-25,jpelletier1,,1,https://github.com/OpenHands/OpenHands/issues/10911,No,857,Normal
+Ui Frontend,11540,chore(deps): bump the version-all group across 1 directory with 40 updates,chore(deps): bump the version-all group across 1 directory with 40 updates,"not be selectable (<a href=""https://redirect",Related to user interface or frontend components,dependencies; javascript,open,2025-10-28,2025-10-29,dependabot[bot],,1,https://github.com/OpenHands/OpenHands/pull/11540,Yes,65535,Normal
+Ui Frontend,11526,"Prevent self-mention loops: block or escape ""@​openhands"" in assistant outputs","Prevent self-mention loops: block or escape ""@​openhands"" in assistant outputs",never output a clickable/platform-activating “@​openhands” mention in regular text,Related to user interface or frontend components,,open,2025-10-27,2025-10-27,enyst,,0,https://github.com/OpenHands/OpenHands/issues/11526,No,2051,Normal
+Ui Frontend,11521,Improve Personal Microagents UX: Add Setup Instructions for Existing Git-Based Feature,"Improve Personal Microagents UX: Add Setup Instructions for Existing Git-Based Feature. ## Problem
+
+Personal microagents **already work in SaaS/Enterprise** through user-owned configuratio...",the empty state ux improvements to transform a confusing experience into a helpful onboarding flow t,Related to user interface or frontend components,enhancement; microagents; enterprise; saas,open,2025-10-27,2025-10-27,jpshackelford,,0,https://github.com/OpenHands/OpenHands/issues/11521,No,6696,Normal
+Ui Frontend,11518,CLI and GUI should use the same conversation history,"CLI and GUI should use the same conversation history. **What problem or use case are you trying to solve?**
+Currently, conversations in GUI are not access...","or enhancement useful, make sure to add a 👍 to the issue",Related to user interface or frontend components,enhancement; CLI; roadmap,open,2025-10-26,2025-10-26,jpelletier1,,0,https://github.com/OpenHands/OpenHands/issues/11518,No,731,Normal
+Ui Frontend,11442,chore(deps): bump actions/setup-node from 4 to 6,chore(deps): bump actions/setup-node from 4 to 6,,Related to user interface or frontend components,dependencies; github_actions,open,2025-10-20,2025-10-20,dependabot[bot],,0,https://github.com/OpenHands/OpenHands/pull/11442,Yes,9257,Normal
+Ui Frontend,11408,Move confirmation mode feature from LLM settings to Application settings,"Move confirmation mode feature from LLM settings to Application settings. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Related to user interface or frontend components,,open,2025-10-16,2025-10-16,jpelletier1,,2,https://github.com/OpenHands/OpenHands/pull/11408,Yes,2425,Normal
+Ui Frontend,11237,Enhancement: Add prominent CTA button in docs to access OpenHands Cloud,"Enhancement: Add prominent CTA button in docs to access OpenHands Cloud. ## Problem
+
+Users are having difficulty finding and accessing the OpenHands Cloud (app.all-hands.dev...",add prominent cta button in docs to access openhands cloud ## problem,Related to user interface or frontend components,documentation; enhancement,open,2025-10-04,2025-10-04,jamiechicago312,,0,https://github.com/OpenHands/OpenHands/issues/11237,No,2505,Normal
+Ui Frontend,11197,feat(cli): Add conversation listing and loading functionality,feat(cli): Add conversation listing and loading functionality,a new,Related to user interface or frontend components,,open,2025-09-30,2025-09-30,xingyaoww,,1,https://github.com/OpenHands/OpenHands/pull/11197,Yes,4317,Normal
+Ui Frontend,11161,Add visual callouts for workarounds and hacks made during task completion,"Add visual callouts for workarounds and hacks made during task completion. **What problem or use case are you trying to solve?**
+
+Currently, OpenHands is very verbose in its o...",highlight:,Related to user interface or frontend components,enhancement,open,2025-09-28,2025-09-28,neubig,,0,https://github.com/OpenHands/OpenHands/issues/11161,No,3788,Normal
+Ui Frontend,11076,Multi-repo/Cross-repo Awareness,"Multi-repo/Cross-repo Awareness. As a developer, when you start a conversation with a single repo, there are usually other repos in a...",,Related to user interface or frontend components,enhancement; roadmap; agent,open,2025-09-23,2025-09-23,jpelletier1,,0,https://github.com/OpenHands/OpenHands/issues/11076,No,1046,Normal
+Ui Frontend,11043,[Task List] Create a separate UI tab for monitoring tasks,[Task List] Create a separate UI tab for monitoring tasks,,Related to user interface or frontend components,enhancement; roadmap; Needs Design,open,2025-09-19,2025-09-19,jpelletier1,,0,https://github.com/OpenHands/OpenHands/issues/11043,No,229,Normal
+Ui Frontend,11015,Train/design to include generic stuff to .gitignore,"Train/design to include generic stuff to .gitignore. **What problem or use case are you trying to solve?**
+When the mode/agent decides to create a new no...",,Related to user interface or frontend components,enhancement; Stale,open,2025-09-18,2025-10-29,kamathln,,1,https://github.com/OpenHands/OpenHands/issues/11015,No,613,Normal
+Ui Frontend,11004,[MCP] Promote popular MCPs on MCP page,[MCP] Promote popular MCPs on MCP page,,Related to user interface or frontend components,enhancement; roadmap,open,2025-09-17,2025-09-19,jpelletier1,,0,https://github.com/OpenHands/OpenHands/issues/11004,No,260,Normal
+Ui Frontend,10978,[CLI] Show a change list within the CLI interface,[CLI] Show a change list within the CLI interface,,Related to user interface or frontend components,enhancement; Stale,open,2025-09-15,2025-10-27,jpelletier1,,1,https://github.com/OpenHands/OpenHands/issues/10978,No,143,Normal
+Configuration,11532,feat: add enterprise gateway support for LLM providers,feat: add enterprise gateway support for LLM providers,,Configuration or settings related,,open,2025-10-27,2025-10-29,ak684,,0,https://github.com/OpenHands/OpenHands/pull/11532,Yes,1432,Normal
+Configuration,11529,Proposal: Auth System for OpenHands (Single-User mode),Proposal: Auth System for OpenHands (Single-User mode). This issue focuses only on the Auth System specifics for Single-User mode...,their own auth independently,Configuration or settings related,,open,2025-10-27,2025-10-28,enyst,,1,https://github.com/OpenHands/OpenHands/issues/11529,No,2449,Normal
+Configuration,11465,feat(cli): add working directory configuration support,"feat(cli): add working directory configuration support. ### Key Features:
+- **Persistent Configuration**: Working directory is saved to `oh_cli_settings.jso...",,Configuration or settings related,,open,2025-10-21,2025-10-21,malhotra5,,0,https://github.com/OpenHands/OpenHands/pull/11465,Yes,2840,Normal
+Configuration,11429,[Enhancement] Improve MCP CLI Support for Windows/WSL Users,"Improve MCP CLI Support for Windows/WSL Users. **What problem or use case are you trying to solve?**
+
+Currently, MCP (Model Context Protocol) funct...",more sophisticated platform detection that can distinguish between native windows and wsl environmen,Configuration or settings related,enhancement; CLI; mcp; windows,open,2025-10-19,2025-10-20,jamiechicago312,,0,https://github.com/OpenHands/OpenHands/issues/11429,No,3899,Normal
+Configuration,11419,Adding error logging when config file is not found.,"Adding error logging when config file is not found.. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Configuration or settings related,,open,2025-10-17,2025-10-23,jarrycyx,,0,https://github.com/OpenHands/OpenHands/pull/11419,Yes,862,Normal
+Configuration,11397,feat: make websocket client wait timeout configurable,"feat: make websocket client wait timeout configurable. ## Summary
+
+This PR addresses the issue where the 2-second timeout for waiting for websocket client ...",,Configuration or settings related,,open,2025-10-15,2025-10-27,olyashok,,0,https://github.com/OpenHands/OpenHands/pull/11397,Yes,1185,Normal
+Configuration,11362,V1 CLI: Add --task and --file flags with direct initial message injection (no env),V1 CLI: Add --task and --file flags with direct initial message injection (no env),,Configuration or settings related,,open,2025-10-14,2025-10-14,enyst,,2,https://github.com/OpenHands/OpenHands/pull/11362,Yes,2135,Normal
+Configuration,11360,pass extra headers to LiteLLM,pass extra headers to LiteLLM,,Configuration or settings related,,open,2025-10-14,2025-10-15,enyst,,6,https://github.com/OpenHands/OpenHands/pull/11360,Yes,1994,Normal
+Configuration,11327,[Enhancement] Agent init need extra arguments to add different system prompt,"Agent init need extra arguments to add different system prompt. **What problem or use case are you trying to solve?**
+As a developer, when agent init, i need custom...","or enhancement useful, make sure to add a 👍 to the issue",Configuration or settings related,enhancement,open,2025-10-13,2025-10-13,shenzenan,,0,https://github.com/OpenHands/OpenHands/issues/11327,No,403,Normal
+Configuration,11189,[Bug]: How to reproduce the 70.4% accuracy of OpenHands + Claude Sonnet 4 on the SWE-Verified leaderboard.,How to reproduce the 70.4% accuracy of OpenHands + Claude Sonnet 4 on the SWE-Verified leaderboard.. ### Is there an existing issue for the same bug...,,Configuration or settings related,evaluation; troubleshooting/help,open,2025-09-30,2025-10-17,zhyang806,,2,https://github.com/OpenHands/OpenHands/issues/11189,No,646,Normal
+Configuration,11077,doc: design doc for self-registration feature,doc: design doc for self-registration feature. The feature addresses friction experienced by enterprise customers during POC evaluations by allowin...,a self-registration feature that allows users to create accounts and access openhands without requir,Configuration or settings related,,open,2025-09-23,2025-09-23,jpshackelford,,1,https://github.com/OpenHands/OpenHands/pull/11077,Yes,2679,Normal
+Configuration,11074,what is the role of setting.json?,what is the role of setting.json?,contain?,Configuration or settings related,troubleshooting/help,open,2025-09-23,2025-09-23,oleotiger,,1,https://github.com/OpenHands/OpenHands/issues/11074,No,986,Normal
+Configuration,11044,fix: Autodetect pwsh.exe & DLL path (Win/non-WSL),"fix: Autodetect pwsh.exe & DLL path (Win/non-WSL). If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,Configuration or settings related,,open,2025-09-19,2025-10-21,aphix,,2,https://github.com/OpenHands/OpenHands/pull/11044,Yes,1307,Normal
+Configuration,10947,Proposal: OpenHands configuration,Proposal: OpenHands configuration. We all know there's an awful lot of problems with OH config/settings parallel systems...,a configuration system as its own package,Configuration or settings related,,open,2025-09-11,2025-10-28,enyst,,5,https://github.com/OpenHands/OpenHands/issues/10947,No,4087,Normal
+Installation Setup,11517,runtime: allow overriding micromamba channel_alias via OH_CONDA_CHANNEL_ALIAS; keep -c conda-forge,"runtime: allow overriding micromamba channel_alias via OH_CONDA_CHANNEL_ALIAS; keep -c conda-forge. ## Summary of PR
+
+This PR addresses residual traffic to anaconda.org during runtime image builds by ...",overriding micromamba channel host during runtime image builds via `oh_conda_channel_alias`,"Installation, setup, or deployment related",,open,2025-10-26,2025-10-26,enyst,,4,https://github.com/OpenHands/OpenHands/pull/11517,Yes,2225,Normal
+Installation Setup,11516,Configurable conda/mamba channel_alias for runtime builds + unit test,Configurable conda/mamba channel_alias for runtime builds + unit test,build their own runtime image with `oh_conda_channel_alias` set to a non-anaconda mirror (examples b,"Installation, setup, or deployment related",,open,2025-10-26,2025-10-27,enyst,,2,https://github.com/OpenHands/OpenHands/pull/11516,Yes,4374,Normal
+Installation Setup,11513,Update container registry from ghcr.io/openhands to ghcr.io/all-hands-ai,Update container registry from ghcr.io/openhands to ghcr.io/all-hands-ai,,"Installation, setup, or deployment related",,open,2025-10-26,2025-10-26,rbren,,2,https://github.com/OpenHands/OpenHands/pull/11513,Yes,2167,Normal
+Installation Setup,11475,OHE Telemetry Service M2 - Metrics Collection Framework,"OHE Telemetry Service M2 - Metrics Collection Framework. ## Problem Statement
+
+OpenHands Enterprise (OHE) helm charts are publicly available but not open s...","track installation and usage metrics to identify unknown ohe users, monitor installation health, and","Installation, setup, or deployment related",enhancement; app-team; enterprise,open,2025-10-22,2025-10-27,jpshackelford,,3,https://github.com/OpenHands/OpenHands/pull/11475,Yes,6332,Normal
+Installation Setup,11474,localhost base_url fixup when running in a docker container,"localhost base_url fixup when running in a docker container. ## Summary of PR
+
+When running OpenHands to target local Lemonade servers, was running into a prob...",,"Installation, setup, or deployment related",,open,2025-10-22,2025-10-28,eddierichter-amd,,1,https://github.com/OpenHands/OpenHands/pull/11474,Yes,862,Normal
+Installation Setup,11444,chore(deps): bump node from 24.8-trixie-slim to 25.0-trixie-slim in /containers/app,chore(deps): bump node from 24.8-trixie-slim to 25.0-trixie-slim in /containers/app,,"Installation, setup, or deployment related",dependencies; docker,open,2025-10-20,2025-10-27,dependabot[bot],,1,https://github.com/OpenHands/OpenHands/pull/11444,Yes,2007,Normal
+Installation Setup,11342,chore(deps): bump python from 3.13.7-slim-trixie to 3.14.0-slim-trixie in /containers/app,chore(deps): bump python from 3.13.7-slim-trixie to 3.14.0-slim-trixie in /containers/app,,"Installation, setup, or deployment related",dependencies; docker,open,2025-10-13,2025-10-27,dependabot[bot],,1,https://github.com/OpenHands/OpenHands/pull/11342,Yes,2019,Normal
+Installation Setup,10886,GitHub Workflow to Publish Self-Hosted Images to S3,"GitHub Workflow to Publish Self-Hosted Images to S3. ## Overview
+
+This PR proposes a GitHub workflow to automate the process of building and publishing...",,"Installation, setup, or deployment related",,open,2025-09-08,2025-10-27,jpshackelford,,2,https://github.com/OpenHands/OpenHands/pull/10886,Yes,997,Normal
+Installation Setup,10883,chore(deps): bump actions/github-script from 7 to 8,chore(deps): bump actions/github-script from 7 to 8,,"Installation, setup, or deployment related",dependencies; github_actions,open,2025-09-08,2025-10-09,dependabot[bot],,0,https://github.com/OpenHands/OpenHands/pull/10883,Yes,11603,Normal
+Installation Setup,10833,build: Migrate to uv,build: Migrate to uv,"in theory improve install speed, short ci and local setup times","Installation, setup, or deployment related",,open,2025-09-05,2025-10-27,jakob1379,,10,https://github.com/OpenHands/OpenHands/pull/10833,Yes,2100,Normal
+Installation Setup,10805,feat(runtime): add windows-docker runtime (initial),feat(runtime): add windows-docker runtime (initial),,"Installation, setup, or deployment related",,open,2025-09-04,2025-10-27,shx815,,6,https://github.com/OpenHands/OpenHands/pull/10805,Yes,2672,Normal
+Installation Setup,10804,docs : Update README.md - cli installer instruction to specify docker is needed in addition to uv,"docs : Update README.md - cli installer instruction to specify docker is needed in addition to uv. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End...",,"Installation, setup, or deployment related",,open,2025-09-04,2025-10-27,Rat-S,,2,https://github.com/OpenHands/OpenHands/pull/10804,Yes,708,Normal
+Agent Behavior,11555,Fix flaky test_condenser_metrics_included by creating new action objects,Fix flaky test_condenser_metrics_included by creating new action objects,,Agent behavior or workflow related,,open,2025-10-29,2025-10-29,raymyers,raymyers,0,https://github.com/OpenHands/OpenHands/pull/11555,Yes,1067,Normal
+Agent Behavior,11524,chore(deps): bump actions/download-artifact from 4 to 6,chore(deps): bump actions/download-artifact from 4 to 6,,Agent behavior or workflow related,dependencies; github_actions,open,2025-10-27,2025-10-27,dependabot[bot],,1,https://github.com/OpenHands/OpenHands/pull/11524,Yes,8169,Normal
+Agent Behavior,11497,fix: support recursively parse nested tools params,fix: support recursively parse nested tools params,,Agent behavior or workflow related,,open,2025-10-24,2025-10-27,Edward-sy,,0,https://github.com/OpenHands/OpenHands/pull/11497,Yes,1425,Normal
+Agent Behavior,11436,Fix stuck after incorrect TaskTrackingAction,Fix stuck after incorrect TaskTrackingAction,,Agent behavior or workflow related,,open,2025-10-20,2025-10-23,jarrycyx,,0,https://github.com/OpenHands/OpenHands/pull/11436,Yes,2368,Normal
+Agent Behavior,11409,Pre-commit hooks not automatically executed before agent creates pull requests,"Pre-commit hooks not automatically executed before agent creates pull requests. ## Description
+
+When a user places a pre-commit script at `.openhands/pre-commit.sh` in their projec...","be automatically executed whenever the agent runs `git commit`, including when preparing to create p",Agent behavior or workflow related,,open,2025-10-16,2025-10-29,neubig,,2,https://github.com/OpenHands/OpenHands/issues/11409,No,2437,Normal
+Agent Behavior,11289,Optimize the memory condenser to reuse the cached multi-turn messages instread of resending the whole context again,"Optimize the memory condenser to reuse the cached multi-turn messages instread of resending the whole context again. When OH condenses memory, it sends a completely new prompt that starts with:
+
+> ""You are maintaining...",,Agent behavior or workflow related,enhancement,open,2025-10-08,2025-10-08,kripper,,0,https://github.com/OpenHands/OpenHands/issues/11289,No,724,Normal
+Agent Behavior,11150,CLI(V1): implement immediate agent termination with double Ctrl+C,"CLI(V1): implement immediate agent termination with double Ctrl+C. ## Problem
+
+Currently, when users press Ctrl+P or Ctrl+C to pause the agent, there is a delay as the...",immediate agent termination with double ctrl+c ## summary,Agent behavior or workflow related,,open,2025-09-26,2025-10-02,malhotra5,,0,https://github.com/OpenHands/OpenHands/pull/11150,Yes,4818,Normal
+Agent Behavior,11016,[Agent] Customizable Guardrails,"[Agent] Customizable Guardrails. For example, one anecdotal comment from a customer mentioned that an AI agent they were using commit...",,Agent behavior or workflow related,enhancement; agent,open,2025-09-18,2025-09-23,jpelletier1,,1,https://github.com/OpenHands/OpenHands/issues/11016,No,860,Normal
+Agent Behavior,10966,Report creation,Report creation,use whatever tools necessary to write the report with requested information,Agent behavior or workflow related,,open,2025-09-14,2025-10-29,erkinalp,,4,https://github.com/OpenHands/OpenHands/issues/10966,No,323,Normal
+Agent Behavior,10945,Request access to official OpenHands RPC Docker image (0.56.0),Request access to official OpenHands RPC Docker image (0.56.0),request credentials or a docker hub link to access the official rpc-enabled image:,Agent behavior or workflow related,enhancement; Stale,open,2025-09-11,2025-10-22,Meenakshi-Gayathri,,1,https://github.com/OpenHands/OpenHands/issues/10945,No,356,Normal
+Agent Behavior,10829,feat: add GitHub Actions workflow templates for OpenHands API integration,feat: add GitHub Actions workflow templates for OpenHands API integration,,Agent behavior or workflow related,Stale,open,2025-09-05,2025-10-21,xingyaoww,,1,https://github.com/OpenHands/OpenHands/pull/10829,Yes,4175,Normal
+Error Crash,11550,fix: prevent self-mention loops by sanitizing @OpenHands in assistant,"fix: prevent self-mention loops by sanitizing @OpenHands in assistant. When the assistant mentions @OpenHands, it could trigger platform notifications or create clickable ...",,Contains error/crash related keywords,,open,2025-10-28,2025-10-28,YakshithK,,0,https://github.com/OpenHands/OpenHands/pull/11550,Yes,1067,Normal
+Error Crash,11473,Fix GitHub resolver authentication error handling,"Fix GitHub resolver authentication error handling. Fixes #11472
+
+This PR improves error handling for authentication failures across GitHub, GitLab, and...",,Contains error/crash related keywords,deploy,open,2025-10-21,2025-10-22,neubig,,3,https://github.com/OpenHands/OpenHands/pull/11473,Yes,2154,Normal
+Error Crash,11404,"[BUG] In the MCPProxyManager, the mounted mcp_app has not been effectively removed.","In the MCPProxyManager, the mounted mcp_app has not been effectively removed.. [issue](https://github.com/All-Hands-AI/OpenHands/issues/11403)...",,Contains error/crash related keywords,,open,2025-10-16,2025-10-28,CLFutureX,,1,https://github.com/OpenHands/OpenHands/pull/11404,Yes,63,Normal
+Error Crash,11213,fix: add fallback error handling for custom secrets setup on runtime resume,"fix: add fallback error handling for custom secrets setup on runtime resume. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Contains error/crash related keywords,,open,2025-10-02,2025-10-02,xingyaoww,,1,https://github.com/OpenHands/OpenHands/pull/11213,Yes,3328,Normal
+Error Crash,11160,[Bug] Import Caching Producing False Negatives,"Import Caching Producing False Negatives. **What problem or use case are you trying to solve?**
+
+During the debugging process, it is often the...","or enhancement useful, make sure to add a 👍 to the issue",Contains error/crash related keywords,enhancement,open,2025-09-27,2025-09-27,ryansherby,,0,https://github.com/OpenHands/OpenHands/issues/11160,No,2113,Normal
+Error Crash,11071,MCP Server Deployment Debugging,MCP Server Deployment Debugging. In the case where an STDIO MCP server is setup in the configuration but fails to deploy due to a cod...,,Contains error/crash related keywords,enhancement,open,2025-09-22,2025-09-22,jdwillard19,,0,https://github.com/OpenHands/OpenHands/issues/11071,No,348,Normal
+Error Crash,10927,Fix tool call validation error handling for Groq LLM provider,"Fix tool call validation error handling for Groq LLM provider. If checked, you **must** provide an **end-user friendly** description for your change below
+
+**End-u...",,Contains error/crash related keywords,,open,2025-09-11,2025-09-30,enyst,,3,https://github.com/OpenHands/OpenHands/pull/10927,Yes,2164,Normal
+Llm Model,11412,Feature Request: LLM Profile Management for OpenHands CLI,"Feature Request: LLM Profile Management for OpenHands CLI. # Feature Request: LLM Profile Management for OpenHands CLI
+
+## What problem or use case are you try...",llm profile management for openhands cli # feature request: llm profile management for openhands cli,LLM or AI model related,enhancement; roadmap,open,2025-10-16,2025-10-17,xingyaoww,,3,https://github.com/OpenHands/OpenHands/issues/11412,No,8261,Normal
+Llm Model,11374,Add n1n.ai API as a model provider,Add n1n.ai API as a model provider,,LLM or AI model related,enhancement,open,2025-10-14,2025-10-14,n1n-api,,0,https://github.com/OpenHands/OpenHands/issues/11374,No,1643,Normal
+Llm Model,11350,Add gpt-5-codex model support,Add gpt-5-codex model support,gpt-5-codex,LLM or AI model related,enhancement,open,2025-10-13,2025-10-13,simonrosenberg,,3,https://github.com/OpenHands/OpenHands/issues/11350,No,160,Normal
+Llm Model,11259,Fix: Sonnet 4.5 detection incl. Bedrock,"Fix: Sonnet 4.5 detection incl. Bedrock. fix #11248
+
+Summary
+- Normalize Bedrock-style region.vendor prefixes (e.g., `us.anthropic.*`) so Son...",,LLM or AI model related,,open,2025-10-06,2025-10-23,enyst,,2,https://github.com/OpenHands/OpenHands/pull/11259,Yes,1931,Normal
+Llm Model,11031,Question: What is the best Verified OSS Model for today September 2025 ? Which I can run locally with 1 gpu and 16GB of VRAM ?,Question: What is the best Verified OSS Model for today September 2025 ? Which I can run locally with 1 gpu and 16GB of VRAM ?. They all fail with different errors...,,LLM or AI model related,,open,2025-09-19,2025-10-19,dibu28,,3,https://github.com/OpenHands/OpenHands/issues/11031,No,478,Normal
+Llm Model,10952,Feature Request: Add CometAPI Provider Support,Feature Request: Add CometAPI Provider Support,this integration and submit a pr according to your project's standards and guidelines if you'd like,LLM or AI model related,enhancement; Stale,open,2025-09-12,2025-10-23,TensorNull,,1,https://github.com/OpenHands/OpenHands/issues/10952,No,607,Normal
+Workspace Files,11379,Fix race condition causing 500 errors when metadata.json disappears,"Fix race condition causing 500 errors when metadata.json disappears. ## Problem
+When `delete_conversation` removes a conversation directory, other operations (events, we...",,"Workspace, file system, or permissions related",,open,2025-10-15,2025-10-27,olyashok,,1,https://github.com/OpenHands/OpenHands/pull/11379,Yes,1470,Normal
+Workspace Files,11205,[Enhancement] Support file lookup in CLI using @,"Support file lookup in CLI using @. **What problem or use case are you trying to solve?**
+As a developer who is looking to reference spe...","or enhancement useful, make sure to add a 👍 to the issue","Workspace, file system, or permissions related",enhancement,open,2025-10-01,2025-10-14,jpelletier1,,2,https://github.com/OpenHands/OpenHands/issues/11205,No,413,Normal
+Workspace Files,10993,fix(openhands/runtime/base.py): adjust org-repo logic,fix(openhands/runtime/base.py): adjust org-repo logic,,"Workspace, file system, or permissions related",,open,2025-09-16,2025-10-22,wolfspyre,,0,https://github.com/OpenHands/OpenHands/pull/10993,Yes,1318,Normal
+V1 Migration,11531,V1 Conversations: conversation metadata,V1 Conversations: conversation metadata,but leaks concerns into core openhands that don’t belong there,V1 version or migration related,,open,2025-10-27,2025-10-28,enyst,,0,https://github.com/OpenHands/OpenHands/issues/11531,No,7536,Normal
+V1 Migration,11345,CLI(V1): allow configuring working directory from inside CLI,"CLI(V1): allow configuring working directory from inside CLI. **What problem or use case are you trying to solve?**
+
+V1 CLI can be run through an executable binar...","or enhancement useful, make sure to add a 👍 to the issue",V1 version or migration related,enhancement; CLI,open,2025-10-13,2025-10-21,malhotra5,,3,https://github.com/OpenHands/OpenHands/issues/11345,No,648,Normal
+Performance,11519,fix(stream) Optimize Subscription Resource Cleanup in Stream to Ensure Complete Resource Management,"fix(stream) Optimize Subscription Resource Cleanup in Stream to Ensure Complete Resource Management. **Background**
+Right now, when we clean up subscription resources, we only delete specific resource...",,Performance or speed related issue,,open,2025-10-27,2025-10-27,CLFutureX,,0,https://github.com/OpenHands/OpenHands/pull/11519,Yes,465,Normal
+Performance,11009,CLI(V1): Speed up binary executable startup,"CLI(V1): Speed up binary executable startup. **What problem or use case are you trying to solve?**
+We want the binary executable for the CLI to b...","or enhancement useful, make sure to add a 👍 to the issue",Performance or speed related issue,enhancement; Stale,open,2025-09-17,2025-10-28,malhotra5,,1,https://github.com/OpenHands/OpenHands/issues/11009,No,1502,Normal
+Documentation,11490,feat(evaluation): Filter task ids by difficulty for SWE Gym rollouts,"feat(evaluation): Filter task ids by difficulty for SWE Gym rollouts. I think after collecting N successful easy trajectories, it's better to focus compute on other tasks...",,Documentation related,,open,2025-10-23,2025-10-23,KevinMusgrave,,0,https://github.com/OpenHands/OpenHands/pull/11490,Yes,2165,Normal
+Documentation,11370,docs: Broken architecture diagram reference in openhands/README.md,docs: Broken architecture diagram reference in openhands/README.md. The architecture diagram in openhands/README.md (line 6) returns 404 because it points to `../docs/s...,,Documentation related,,open,2025-10-14,2025-10-14,Chesars,,0,https://github.com/OpenHands/OpenHands/issues/11370,No,595,High
+Logging Debugging,11506,"Add ""SSL no-verify"" config option for debugging","Add ""SSL no-verify"" config option for debugging. **What problem or use case are you trying to solve?**
+
+Make it easier for corporate users with custo...","or enhancement useful, make sure to add a 👍 to the issue",Logging or debugging related,enhancement; security,open,2025-10-24,2025-10-24,raymyers,raymyers,0,https://github.com/OpenHands/OpenHands/issues/11506,No,1531,Normal
+Other,11422,다들 코딩 천재?,다들 코딩 천재?,,No specific category keywords found,,open,2025-10-17,2025-10-20,elemanop,,1,https://github.com/OpenHands/OpenHands/issues/11422,No,16,Normal
