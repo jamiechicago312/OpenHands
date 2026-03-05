@@ -306,7 +306,7 @@ def send_welcome_email(
                 <ol>
                     <li><a href="https://docs.openhands.dev/openhands/usage/cloud/openhands-cloud#next-steps"><strong>Connect your Git repo</strong></a> – Link your <a href="https://docs.openhands.dev/openhands/usage/cloud/github-installation">GitHub</a> or <a href="https://docs.openhands.dev/openhands/usage/cloud/gitlab-installation">GitLab</a> repository in seconds so OpenHands can begin understanding your codebase and suggest tasks.</li>
                     <li><a href="https://docs.openhands.dev/openhands/usage/cloud/github-installation#working-on-github-issues-and-pull-requests-using-openhands"><strong>Use OpenHands on an issue or pull request</strong></a> – Label an issue with 'openhands' or mention @openhands on any PR comment to generate explanations, tests, refactors, or doc fixes tailored to the exact lines you're reviewing.</li>
-                    <li><a href="https://dub.sh/openhands"><strong>Join the community</strong></a> – Drop into our Slack Community to share tips, feedback, and help shape the next features on our roadmap.</li>
+                    <li><a href="https://dub.sh/openhands"><strong>Join the community</strong></a> – Join our Slack Community to share tips, feedback, and help shape the next features on our roadmap.</li>
                 </ol>
                 <p>Have questions? Want to share feedback? Just reply to this email—we're here to help.</p>
                 <p>Happy coding!</p>
