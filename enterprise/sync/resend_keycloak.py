@@ -310,7 +310,8 @@ def send_welcome_email(
                 </ol>
                 <p>Have questions? Want to share feedback? Just reply to this email—we're here to help.</p>
                 <p>Happy coding!</p>
-                <p>The OpenHands team</p>
+                <p>The <a href="https://www.openhands.ai">OpenHands</a> team</p>
+                <p>24 Oak Street, Cambridge MA 02139</p>
             </div>
             """,
         }
