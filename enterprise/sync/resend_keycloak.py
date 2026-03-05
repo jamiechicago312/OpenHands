@@ -16,7 +16,8 @@ Optional environment variables:
 - KEYCLOAK_PROVIDER_NAME: Provider name for Keycloak
 - KEYCLOAK_CLIENT_ID: Client ID for Keycloak
 - KEYCLOAK_CLIENT_SECRET: Client secret for Keycloak
-- RESEND_FROM_EMAIL: Email address to use as the sender (default: "OpenHands Team <contact@openhands.dev>")
+- RESEND_FROM_EMAIL: Email address to use as the sender (default: "OpenHands Team <no-reply@welcome.openhands.dev>")
+- RESEND_REPLY_TO_EMAIL: Email address for replies (default: "contact@openhands.dev")
 - BATCH_SIZE: Number of users to process in each batch (default: 100)
 - MAX_RETRIES: Maximum number of retries for API calls (default: 3)
 - INITIAL_BACKOFF_SECONDS: Initial backoff time for retries (default: 1)
@@ -294,6 +295,7 @@ def send_welcome_email(
             'from': os.environ.get(
                 'RESEND_FROM_EMAIL', 'OpenHands Team <no-reply@welcome.openhands.dev>'
             ),
+            'reply_to': os.environ.get('RESEND_REPLY_TO_EMAIL', 'contact@openhands.dev'),
             'to': [email],
             'subject': 'Welcome to OpenHands Cloud',
             'html': f"""
