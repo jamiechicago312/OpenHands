@@ -295,7 +295,9 @@ def send_welcome_email(
             'from': os.environ.get(
                 'RESEND_FROM_EMAIL', 'OpenHands Team <no-reply@welcome.openhands.dev>'
             ),
-            'reply_to': os.environ.get('RESEND_REPLY_TO_EMAIL', 'contact@openhands.dev'),
+            'reply_to': os.environ.get(
+                'RESEND_REPLY_TO_EMAIL', 'contact@openhands.dev'
+            ),
             'to': [email],
             'subject': 'Welcome to OpenHands Cloud',
             'html': f"""
