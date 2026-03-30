@@ -88,53 +88,17 @@ If you need help with anything, or just want to chat, [come find us on Slack](ht
 <div align="center">
   <strong>Trusted by engineers at</strong>
   <br/><br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/tiktok.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/tiktok.svg" alt="TikTok" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/vmware.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/vmware.svg" alt="VMware" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/roche.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/roche.svg" alt="Roche" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/amazon.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/amazon.svg" alt="Amazon" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/c3-ai.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/c3-ai.svg" alt="C3 AI" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/netflix.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/netflix.svg" alt="Netflix" height="40">
-  </picture>
+  <img src="https://assets.openhands.dev/logos/external/black/tiktok.svg#gh-light-mode-only" alt="TikTok" height="40"><img src="https://assets.openhands.dev/logos/external/white/tiktok.svg#gh-dark-mode-only" alt="TikTok" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/vmware.svg#gh-light-mode-only" alt="VMware" height="40"><img src="https://assets.openhands.dev/logos/external/white/vmware.svg#gh-dark-mode-only" alt="VMware" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/roche.svg#gh-light-mode-only" alt="Roche" height="40"><img src="https://assets.openhands.dev/logos/external/white/roche.svg#gh-dark-mode-only" alt="Roche" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/amazon.svg#gh-light-mode-only" alt="Amazon" height="40"><img src="https://assets.openhands.dev/logos/external/white/amazon.svg#gh-dark-mode-only" alt="Amazon" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/c3-ai.svg#gh-light-mode-only" alt="C3 AI" height="40"><img src="https://assets.openhands.dev/logos/external/white/c3-ai.svg#gh-dark-mode-only" alt="C3 AI" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/netflix.svg#gh-light-mode-only" alt="Netflix" height="40"><img src="https://assets.openhands.dev/logos/external/white/netflix.svg#gh-dark-mode-only" alt="Netflix" height="40">
   <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/mastercard.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/mastercard.svg" alt="Mastercard" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/red-hat.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/red-hat.svg" alt="Red Hat" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/mongodb.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/mongodb.svg" alt="MongoDB" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/apple.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/apple.svg" alt="Apple" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/nvidia.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/nvidia.svg" alt="NVIDIA" height="40">
-  </picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.openhands.dev/logos/external/white/google.svg">
-    <img src="https://assets.openhands.dev/logos/external/black/google.svg" alt="Google" height="40">
-  </picture>
+  <img src="https://assets.openhands.dev/logos/external/black/mastercard.svg#gh-light-mode-only" alt="Mastercard" height="40"><img src="https://assets.openhands.dev/logos/external/white/mastercard.svg#gh-dark-mode-only" alt="Mastercard" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/red-hat.svg#gh-light-mode-only" alt="Red Hat" height="40"><img src="https://assets.openhands.dev/logos/external/white/red-hat.svg#gh-dark-mode-only" alt="Red Hat" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/mongodb.svg#gh-light-mode-only" alt="MongoDB" height="40"><img src="https://assets.openhands.dev/logos/external/white/mongodb.svg#gh-dark-mode-only" alt="MongoDB" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/apple.svg#gh-light-mode-only" alt="Apple" height="40"><img src="https://assets.openhands.dev/logos/external/white/apple.svg#gh-dark-mode-only" alt="Apple" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/nvidia.svg#gh-light-mode-only" alt="NVIDIA" height="40"><img src="https://assets.openhands.dev/logos/external/white/nvidia.svg#gh-dark-mode-only" alt="NVIDIA" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.openhands.dev/logos/external/black/google.svg#gh-light-mode-only" alt="Google" height="40"><img src="https://assets.openhands.dev/logos/external/white/google.svg#gh-dark-mode-only" alt="Google" height="40">
 </div>
